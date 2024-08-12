@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>flights</title>
+
+</head>
+
+
+<style type="text/css" media="all">
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: 0px;
+    }
+
+
+    body {
+
+        background: whitesmoke;
+  
+    }
+
+    h1 {
+
+        font-size: 4rem;
+        font-family: Sans-Serif;
+        text-align: center;
+
+    }
+
+    .Header {
+
+        display: inline-block;
+        margin-inline: 5rem;
+        text-align: center;
+        font-family: Sans-Serif;
+        margin-top: 2rem;
+    }
+
+    .Header a {
+        margin-inline: 2rem;
+        text-decoration: none;
+        color: gray;
+        font-size: 2em;
+        margin-left: 5rem;
+
+    }
+</style>
+<body>
+    
+   <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const images = document.querySelectorAll('.display img');
+            images.forEach(image => {
+                image.addEventListener('click', function () {
+                    alert('Image clicked: ' + image.src);
+                });
+            });
+        });
+    </script> 
+    
+    
+    
+    <meta>
+    <h1
+
+        style="
+
+        background-color: #333;
+        color: white;
+        padding-top: 40px;
+        height: 8rem;
+        position: fixed;
+        width: 100%;
+
+        "
+
+
+        >flyWORLD</h1>
+
+
+    <hr style="color: black; border: 2px solid black;">
+
+    <div class="boxer" style="
+
+        background-color: white;
+        width: 90%;
+        margin-left: 5%;
+        border-radius:1.3rem;
+        margin-top: 15rem;
+        box-shadow: 0 0 2rem  -1rem;
+        height: 20rem;
+        ">
+
+        <div class="DEPART" align="center"
+
+
+            style="
+
+            margin-top: 3rem;
+            width: 40%;
+            display: inline-block;
+            height: 5rem;
+            font-size: 1rem;
+            background: lightgray;
+            border-radius: .2rem solid black;
+            margin-left: 10%;
+            border-radius:3rem;
+            font-family: Sans-Serif;
+
+            "
+
+            >
+            <h2
+                style="
+
+                margin-top:2rem;
+                "
+                >NEW YORK</h2>
+        </div>
+
+
+
+        <div class="DEPART" align="center"
+
+
+            style="
+
+            margin-top: 3rem;
+            width: 40%;
+            display: inline-block;
+            height: 5rem;
+            font-size: 1rem;
+            background: lightgray;
+            border-radius: .2rem solid black;
+            margin-left: 10%;
+            border-radius:3rem;
+            font-family: Sans-Serif;
+            margin-bottom: 2rem;
+
+            "
+
+            >
+            <h2
+                style="
+
+                margin-top:2rem;
+                "
+                >WASHINGTON DC</h2>
+        </div>
+
+        <div class="deals advert" style="
+
+            margin-top: -14.5rem;
+
+
+
+
+            ">
+            <a href="flightdeals.html">
+
+                <img src="advertflight.png" alt="" style="
+
+                inline-size: 40%;
+                aspect-ration: 6/3;
+                object-fit: cover;
+                margin-left: 55%;
+                margin-bottom: 0;
+                border-radius: 2rem;
+
+                " />
+            </a>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="boxer" style="
+
+        background-color: white;
+        width: 90%;
+        margin-left: 5%;
+        border-radius:1.3rem;
+        margin-top: 10rem;
+        box-shadow: 0 0 2rem  -1rem;
+        height: 20rem;
+        margin-top: 2rem;
+        ">
+
+        <div class="DEPART" align="center"
+
+
+            style="
+
+            margin-top: 3rem;
+            width: 40%;
+            display: inline-block;
+            height: 5rem;
+            font-size: 1rem;
+            background: lightgray;
+            border-radius: .2rem solid black;
+            margin-left: 10%;
+            border-radius:3rem;
+            font-family: Sans-Serif;
+
+            "
+
+            >
+            <h2
+                style="
+
+                margin-top:2rem;
+                "
+                >NEW YORK</h2>
+        </div>
+
+
+
+        <div class="DEPART" align="center"
+
+
+            style="
+
+            margin-top: 3rem;
+            width: 40%;
+            display: inline-block;
+            height: 5rem;
+            font-size: 1rem;
+            background: lightgray;
+            border-radius: .2rem solid black;
+            margin-left: 10%;
+            border-radius:3rem;
+            font-family: Sans-Serif;
+            margin-bottom: 2rem;
+
+            "
+
+            >
+            <h2
+                style="
+
+                margin-top:2rem;
+                "
+                >WASHINGTON DC</h2>
+        </div>
+
+        <div class="deals advert" style="
+
+            margin-top: -14.5rem;
+
+
+
+            ">
+            <a href="flightdeals.html">
+
+                <img src="advertflight.png" alt="" style="
+
+                inline-size: 40%;
+                aspect-ration: 6/3;
+                object-fit: cover;
+                margin-left: 55%;
+                margin-bottom: 0;
+                border-radius: 2rem;
+
+                " />
+            </a>
+
+        </div>
+    </div>
+
+    <div style="
+
+        display: grid;
+        grid-auto-flow: column;
+        ">
+
+        <h3 style="
+
+            font-size: 3rem;
+            margin: 100px 0 50px 50px;
+            font-family: Sans-Serif;
+
+
+            ">Explore Sites</h3>
+        <a href="exploresites.html" style="
+            font-size: 2rem;
+            margin-left: 60%;
+            margin-top: 110px;
+            font-family: Sans-Serif;
+            font-weight: bold;
+            text-decoration: none;
+
+            ">MORE</a>
+
+    </div>
+    <div class="display"
+
+        style="
+        margin-left: 50px;
+        margin-bottom: 20%;
+        margin-top: 50px;
+        display: grid;
+        grid-auto-flow: column;    grid-auto-flow: column;
+        gap: 10px;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        border-top: 5px;
+
+
+        ">
+
+        <div class="scroller"
+            style="
+            margin-right: 20px;
+            margin-left:  20px ;">
+            <img src="new york.jpg" alt="" style="
+            inline-size: 40rem;
+            object-fit: cover;
+            height: 25rem;
+            border-radius:5rem  ;
+
+            " />
+
+        </div>
+
+        <div class="scroller"
+            style="
+            margin-right: 10px;
+            margin-left:  20px ;"
+
+
+            >
+            <img src="havard.png" alt="" style="
+            inline-size: 40rem;
+            object-fit: cover;
+            height: 25rem;
+            border-radius:5rem  ;
+
+            " />
+
+        </div>
+
+        <div class="scroller"
+            style="
+            margin-right: 10px;
+            margin-left:  20px ;"
+
+            >
+            <img src="miami.png" alt="" style="
+            inline-size: 40rem;
+            object-fit: cover;
+            height: 25rem;
+            border-radius:5rem  ;
+
+            " />
+
+        </div>
+
+        <div class="scroller"
+
+            style="
+            margin-right: 10px;
+            margin-left:  20px ;"
+            >
+            <img src="zanzibar.png" alt="" style="
+            inline-size: 40rem;
+            object-fit: cover;
+            height: 25rem;
+            border-radius:5rem  ;
+
+            " />
+
+        </div>
+
+        <div class="scroller"
+            style="
+            margin-right: 10px;
+            margin-left:  20px ;"
+
+            >
+            <img src="rio.png" alt="" style="
+            inline-size: 40rem;
+            object-fit: cover;
+            height: 25rem;
+            border-radius:5rem  ;
+
+            " />
+
+        </div>
+
+
+        <div class="scroller"
+            style="
+            margin-right: 10px;
+            margin-left:  20px ;"
+
+            >
+            <img src="dubai.png" alt="" style="
+            inline-size: 40rem;
+            object-fit: cover;
+            height: 25rem;
+            border-radius:5rem;
+
+            " />
+        </div>
+
+        <div class="scroller"
+
+            style="
+            margin-right: 10px;
+            margin-left:  20px ;"
+
+            >
+
+            <img src="panama.png" alt="" style="
+            inline-size: 40rem;
+            object-fit: cover;
+            height: 25rem;
+            border-radius:5rem  ;
+
+            " />
+        </div>
+    </div>
+
+
+    <div class="plans"
+        style="
+        margin-top:  -100px ;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 10px;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+
+
+        "
+
+        >
+        <h4 style="
+            background: #333;
+            font-family: Sans-Serif;
+            font-size: 3rem  ;
+            color: white;
+            padding-top: 1rem;
+            text-align: center;
+            border-radius: 2rem;
+            width: 400px;
+            margin-left: 50px;
+            height: 5rem ;
+            ">Business</h4>
+        <h4
+
+            style="
+            background: lightgray;
+            font-family: Sans-Serif;
+            font-size: 3rem  ;
+            color: black;
+            padding-top: 1rem;
+            text-align: center;
+            border-radius: 2rem;
+            width: 400px;
+            margin-left: 10px;
+            height: 5rem ;
+            "
+
+            >Economy</h4>
+        <h4
+            style="
+            background: lightgray;
+            font-family: Sans-Serif;
+            font-size: 3rem  ;
+            color: black;
+            padding-top: 1rem;
+            text-align: center;
+            border-radius: 2rem;
+            width: 400px;
+            margin-left: 10px;
+            height: 5rem ;
+            margin-right: 50px;
+            "
+
+            >Parcels</h4>
+
+    </div>
+
+    <div class="displayer" style="
+        display: grid;
+        grid-auto-flow: row;
+        width: 90%;
+        margin-left: 5%;
+        background: white;
+        border-radius: 2rem ;
+        margin-top: 5rem;
+        box-shadow: 0 0 10px -5px;
+        margin-bottom: 20px;
+        height: 250px;
+
+
+        ">
+
+        <div>
+
+            <div style="
+                display: grid;
+                grid-auto-flow: column;
+
+                ">
+
+
+                <h5 style="
+                    font-family: Sans-Serif;
+                    font-size: 3rem;
+                    margin-left: 50px;
+                    margin-top: 80px;
+                    width: 60%;
+
+                    ">San Juan, Manchester</h5>
+                <h6 style="
+
+                    margin-left: 100px;
+                    width: 200px;
+                    height: 100px;
+                    text-align:center;
+                    color:white;
+                    margin-top: 50px;
+                    padding-top: 50px;
+                    background: #333;
+                    font-family: Sans-Serif;
+                    font-size: 3rem;
+                    border-radius: 3rem;
+
+                    ">$500</h6>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <div class="displayer" style="
+        display: grid;
+        grid-auto-flow: row;
+        width: 90%;
+        margin-left: 5%;
+        background: white;
+        border-radius: 2rem ;
+        margin-top: 1rem;
+        box-shadow: 0 0 10px -5px;
+        margin-bottom: 20px;
+        height: 250px;
+
+
+        ">
+
+        <div>
+
+            <div style="
+                display: grid;
+                grid-auto-flow: column;
+
+                ">
+
+
+                <h5 style="
+                    font-family: Sans-Serif;
+                    font-size: 3rem;
+                    margin-left: 50px;
+                    margin-top: 80px;
+                    width: 60%;
+
+                    ">San Juan, Liverpool</h5>
+                <h6 style="
+
+                    margin-left: 100px;
+                    width: 200px;
+                    height: 100px;
+                    text-align:center;
+                    color:white;
+                    margin-top: 50px;
+                    padding-top: 50px;
+                    background: #333;
+                    font-family: Sans-Serif;
+                    font-size: 3rem;
+                    border-radius: 3rem;
+
+                    ">$500</h6>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <div class="displayer" style="
+        display: grid;
+        grid-auto-flow: row;
+        width: 90%;
+        margin-left: 5%;
+        background: white;
+        border-radius: 2rem ;
+        margin-top: 1rem;
+        box-shadow: 0 0 10px -5px;
+        margin-bottom: 20px;
+        height: 250px;
+
+
+        ">
+
+        <div>
+
+            <div style="
+                display: grid;
+                grid-auto-flow: column;
+
+                ">
+
+
+                <h5 style="
+                    font-family: Sans-Serif;
+                    font-size: 3rem;
+                    margin-left: 50px;
+                    margin-top: 80px;
+                    width: 60%;
+
+                    ">New York, Nairobi</h5>
+                <h6 style="
+
+                    margin-left: 100px;
+                    width: 200px;
+                    height: 100px;
+                    text-align:center;
+                    color:white;
+                    margin-top: 50px;
+                    padding-top: 50px;
+                    background: #333;
+                    font-family: Sans-Serif;
+                    font-size: 3rem;
+                    border-radius: 3rem;
+
+                    ">$500</h6>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <div class="displayer" style="
+        display: grid;
+        grid-auto-flow: row;
+        width: 90%;
+        margin-left: 5%;
+        background: white;
+        border-radius: 2rem ;
+        margin-top: 1rem;
+        box-shadow: 0 0 10px -5px;
+        margin-bottom: 50px;
+        height: 250px;
+
+
+        ">
+
+        <div>
+
+            <div style="
+                display: grid;
+                grid-auto-flow: column;
+
+                ">
+
+
+                <h5 style="
+                    font-family: Sans-Serif;
+                    font-size: 3rem;
+                    margin-left: 50px;
+                    margin-top: 80px;
+                    width: 60%;
+
+                    ">Juba, Los Angeles</h5>
+                <h6 style="
+
+                    margin-left: 100px;
+                    width: 200px;
+                    height: 100px;
+                    text-align:center;
+                    color:white;
+                    margin-top: 50px;
+                    padding-top: 50px;
+                    background: #333;
+                    font-family: Sans-Serif;
+                    font-size: 3rem;
+                    border-radius: 3rem;
+
+                    ">$500</h6>
+            </div>
+        </div>
+    </div>
+    <div style="
+        margin-bottom: 50px;
+        ">
+        <a href="flightdeals.html" style="
+            font-size: 2rem;
+            margin-left: 80%;
+            margin-top: 110px;
+            font-family: Sans-Serif;
+            font-weight: bold;
+            text-decoration: none;
+            ">MORE</a>
+    </div>
+
+
+
+</meta>
+</body>
+</html>

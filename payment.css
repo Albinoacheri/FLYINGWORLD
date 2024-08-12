@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+
+.info a {
+    text-decoration: none;
+    color: black;
+}
+
+.info {
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    border-bottom: 50px solid #333;
+
+
+
+}
+
+.info a img {
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.info p {
+    margin-left: 18%;
+    font-family: Sans-Serif;
+    font-size: 2rem;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+.headpin {
+
+    position: fixed;
+    top: 0;
+    height: 300px;
+    background: whitesmoke;
+    width: 100%;
+
+}
+
+
+.ticket {
+    margin-top: 40%;
+    margin-bottom: 100px;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+    overflow-y: auto;
+    overscroll-behavior-block: contain;
+    border-top: 5px;
+
+
+}
+.ticket a {
+    text-decoration: none;
+    color: black;
+}
+
+.ticket .flights {
+    margin-left: 5%;
+    margin-block: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 90%;
+    border: 5px solid white;
+    box-shadow: 0 0 30px -20px;
+    height: 900px;
+    background-color: #dfd;
+}
+
+.ticket .flights .paragraph1 {
+    margin: 50px 0 0 50px;
+}
+.ticket .flights .paragraph1 p {
+    font-size: 1.5rem;
+    font-family: Sans-Serif;
+    color: gray;
+}
+
+.ticket .flights .paragraph2 {
+    margin: -30px 0 0 80%;
+}
+.ticket .flights .paragraph2 p {
+    font-size: 1.5rem;
+    font-family: Sans-Serif;
+    color: gray;
+}
+
+.ticket .flights hr {
+    margin: 150px 20px 0 20px;
+    background-color: black;
+    border: 2px solid lightgray;
+}
+
+.ticket .flights img {
+    width: 100px;
+    height: 100px;
+    margin: -52.25px 0 0 45%;
+}
+
+.ticket .flights .planename {
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.ticket .flights .planename p {
+    font-size: 2rem;
+    font-family: Sans-Serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.ticket .flights .town1 {
+    margin: 80px 0 10px 50px;
+}
+
+.ticket .flights .town1 p {
+    font-size: 3.5rem;
+    font-family: Sans-Serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.ticket .flights .town2{
+      margin: -80px 0 0 70%;  
+}
+
+.ticket .flights .town2 p{
+     font-size: 3.5rem;
+    font-family: Sans-Serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.ticket h1 {
+    font-size: 2rem;
+    font-family: Sans-Serif;
+    margin-left: 35%;
+    margin-top: -600px;
+
+}
+
+
+.ticket .method {
+
+    display: inline-block;
+    margin-top: -550px;
+    margin-left: 17%;
+
+}
+
+
+.ticket .method img {
+    object-fit: cover;
+    margin-inline: 10px;
+
+}
+
+.ticket .socials {
+
+    display: inline-block;
+    margin-top: -150px;
+    margin-left: 19%;
+    width: 70%;
+}
+
+.ticket .socials img {
+
+    object-fit: cover;
+    margin-inline: 10px;
+    margin-block: 10px;
+}
+
+h2 {
+
+    font-size: 2rem;
+    font-family: Sans-Serif;
+    margin-left: 20%;
+    margin-top: -200px;
+
+}
